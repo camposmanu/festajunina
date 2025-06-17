@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ingressos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h2>Festa Junina 2025</h2>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="atracoes.html">Atrações</a>
+      <a href="comida.html">Comidas</a>
+      <a href="local.html">Local</a>
+      <a href="ingressos.html">Ingressos</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Garanta seu ingresso!</h1>
+    <p>Preencha os dados abaixo para reservar sua entrada:</p>
+
+    <form style="text-align: left; max-width: 400px; margin: auto;">
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" name="nome" style="width: 100%; padding: 8px;"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" style="width: 100%; padding: 8px;"><br><br>
+
+      <label for="quantidade">Quantidade:</label><br>
+      <input type="number" id="quantidade" name="quantidade" min="1" max="10" style="width: 100%; padding: 8px;"><br><br>
+
+      <input type="submit" value="Reservar" style="background-color: #8a2be2; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 8px;">
+    </form>
+  </div>
+
+  <footer>
+    © 2025 Festa Junina - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
